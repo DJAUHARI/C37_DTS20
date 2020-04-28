@@ -11,6 +11,61 @@ a {
   text-decoration: none;
 }
 
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
 .clear {
   clear: left;
 }
@@ -24,26 +79,16 @@ li {
   color: #FFF;
 }
 
-.header {
-  background-color: #208075;
-  color: #fff;
-  height: 100px;
-}
 
-.header-logo {
-  float: left;
-  font-size: 36px;
-  float: left;
-  font-size: 36px;
-  padding: 20px 40px;
-}
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
+.menu_section {
+position: fixed;
+z-index: 100;
+top: 0px;
+height: 50px;
+width: 100%;
+padding-right: 50px; 
+padding-left: 50px;
+background-color: white;
 }
 
 /* container 01*/
@@ -92,17 +137,12 @@ li {
   text-align: center;
 }
 
-.btn:hover {
-  opacity: 1;
-}
+
 
 .signup {
   background-color: #239b76;
 }
 
-.fa {
-  margin-right: 5px;
-}
 
 /* container center 02*/
 .lesson-wrapper {
